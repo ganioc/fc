@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.5)
 project(fc)
 
+# Yang Jun added
+set( CMAKE_CXX_STANDARD 14 )
+set( CMAKE_CXX_EXTENSIONS ON )
+set( CXX_STANDARD_REQUIRED ON)
+
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMakeModules")
 include(GNUInstallDirs)
 include(SetupTargetMacros)
